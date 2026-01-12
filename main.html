@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container"> 
+
+        <div class="home">
+            <h1>HOME</h1>
+            <div class="score">
+                <h1 class = "home-score" id = "home-score">0</h1>
+            </div>
+
+            <div class = "Increment-home">
+                <button class = "btn homeoneplues" onclick="plusonehome()">+1</button>
+                <button class = "btn homeoneplues" onclick="plustwohome()">+2</button>
+                <button class = "btn homeoneplues" onclick="plusthreehome()">+3</button>
+
+
+            </div>
+
+        </div>
+
+        <div class="guest">
+            <h1>GUEST</h1>
+            
+            <div class="score">
+                <h1 class = "guest-score" id = "guest-score">0</h1>
+            </div>
+
+            <div class = "Increment-guest">
+               <button class = "btn" id=" guestoneplues" onclick="plusoneguest()">+1</button>
+                <button class = "btn guestwoplues" onclick="plustwoguest()">+2</button>
+                <button class = "btn guesthreeplues" onclick="plusthreeguest()">+3</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
